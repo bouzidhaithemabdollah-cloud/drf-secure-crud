@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  @keyframes fadeSlideUp {
+    0% { opacity: 0; transform: translateY(24px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-slide-up {
+    animation: fadeSlideUp 1s ease-out forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fade-slide-up { animation: none; }
+  }
+</style>
+</head>
+<body class="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-[#0b0f1a] via-[#151233] to-[#1b1440]">
+
+  <div class="w-full max-w-xl rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-2xl shadow-black/40 px-8 py-16 sm:px-14 sm:py-20 text-center">
+    <h1 class="animate-fade-slide-up text-4xl sm:text-6xl font-semibold tracking-tight text-white">
+      welcome freinds
+    </h1>
+  </div>
+
+</body>
+</html>

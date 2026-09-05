@@ -1,0 +1,9 @@
+### تجربة التعديل (PUT)
+PUT http://127.0.0.1:8000/users/a3b0ca09-8496-485b-ab4a-918f98a905bb/update/
+Content-Type: application/json
+
+{
+  "name": "yacine",
+  "email": "new_email@api.com",
+  "password": "NewSecretPassword123"
+}

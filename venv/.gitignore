@@ -1,0 +1,18 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python Cache (ملفات مخفية يديرها بايثون ما نسحقوهاش)
+__pycache__/
+*.pyc
+
+# Virtual Environments (الدوسي تاع المكتبات، ثقيل بزاف ما يطلعش)
+venv/
+env/
+
+# Database (إذا كنت تخدم بـ sqlite3 في التيست، ما تطلعهاش)
+db.sqlite3
+db.sqlite3-journal
+
+# Secrets & Environment Variables (مهم جداً أمنياً!)
+.env
+
+# VS Code / IDE (ملفات تاع الإيديتور ما تهمش الناس)
+.vscode/
