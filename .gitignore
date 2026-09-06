@@ -1,0 +1,21 @@
+# Python Cache (هادو لي دارو البلوكاج مقبيل)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (باش ما يطلعش مجلد venv الثقيل)
+venv/
+env/
+
+# Environment Variables (باش ما يتسرقوش المودباسات)
+.env
+
+# Django & Database
+db.sqlite3
+media/
+static/
+
+# IDE & OS (ملفات النظام والـ VS Code)
+.vscode/
+.DS_Store
