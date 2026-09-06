@@ -1,9 +1,14 @@
-### تجربة التعديل (PUT)
-PUT http://127.0.0.1:8000/users/a3b0ca09-8496-485b-ab4a-918f98a905bb/update/
+# ### تسجيل الدخول (طلب الباص - Token)
+POST http://127.0.0.1:8000/api/token/
 Content-Type: application/json
 
 {
-  "name": "yacine",
-  "email": "new_email@api.com",
-  "password": "NewSecretPassword123"
+  "email": "haithem@example.com", 
+  "password": "youness"
 }
+
+
+
+### قراءة بيانات مستخدم (بالباص)
+GET http://127.0.0.1:8000/users/a3b0ca09-8496-485b-ab4a-918f98a905bb/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzg4NjkzMDQxLCJpYXQiOjE3ODg2ODk0NDEsImp0aSI6IjE2NDgwMDBlMjI4MjQ0OTZhOTEyNjY2NWRmNjJhMGNlIiwidXNlcl9pZCI6ImIxZWJlMGVlLTk4OWYtNGNkNi04Y2E1LWZlMzYyYjAyODRlOSJ9.4PZ8reciaVFeCzqXak_ChFZxbnJi-beeZmtdcdhhVvY
